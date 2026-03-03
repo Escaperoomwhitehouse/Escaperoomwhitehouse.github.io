@@ -1,3 +1,9 @@
+body {
+
+  background-image: url(f97222cb2289d60e35d45c356e80a705.jpg);
+  width:100%;
+}
+/* Achtergrond veranderd van een kleur naar een plaatje*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -30,7 +36,18 @@ ul {
  /* tekst van menu*/
 
  li a:hover{
-  background-color:rgb(212, 142, 186);
+  background-color:rgb(253, 200, 233);
  }
  /* kleur van als je met je muis op het menu gaat staan*/
- /* Van eigen website gepakt, geen idee wat dit prc was*/
+
+ .introductie {   /* een ingevulde border gemaakt voor mijn tekst*/
+  width: 50%;
+  border:pink;
+  background-color: pink;
+  color: black;
+  padding: 9px;
+  margin-left: 9;
+  border-radius: 10px;
+ 
+
+}
