@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: pink;
+  }
+  /* menu gemaakt, de 100% staat voor een menubalk die van links tot rechts loopt*/
+
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 18px 21px;
+    text-align: center;
+    text-decoration: none;
+    background-color: pink;
+    text-align: center;
+    color:black;
+  }
+  /* opmaak van het menu*/
+
+ h1{
+  color:black;
+  margin-left: 550px;
+ }
+ /* tekst van menu*/
+
+ li a:hover{
+  background-color:rgb(253, 200, 233);
+ }
+ /* kleur van als je met je muis op het menu gaat staan*/
