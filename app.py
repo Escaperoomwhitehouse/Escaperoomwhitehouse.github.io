@@ -334,6 +334,11 @@ if not st.session_state.user:
         p = st.text_input("WACHTWOORD", type="password", placeholder="••••••••")
         if st.button("▶ TOEGANG AANVRAGEN", use_container_width=True):
             role = auth(u, p)
+            if role:
+                fake_progress("IDENTITEIT VERIFIËREN")
+                st.session_state.user = u
+                st.session_state.role = role
+                st.rerun()
         
         else:
             st.error(" TOEGANG GEWEIGERD — Ongeldige credentials")
