@@ -654,7 +654,7 @@ function showMsg(m){{document.getElementById('mc').innerHTML='<h2>'+m+'</h2><p s
 # KAMER 2 — DE VERGADERRUIMTE (XSS)
 # ==========================================================
 with tabs[1]:
-    st.header("DE VERGADERRUIMTE")
+    st.header("DE VERGADER RUIMTE")
     lvl = get_level(user, "xss")
     st.progress(min((lvl-1)/3, 1.0), text=f"Voortgang: Stap {min(lvl,3)}/3")
 
