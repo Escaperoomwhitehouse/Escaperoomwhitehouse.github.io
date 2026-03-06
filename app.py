@@ -433,7 +433,7 @@ with tabs[0]:
     st.progress(min((lvl-1)/3, 1.0), text=f"Voortgang: Stap {min(lvl,3)}/3")
 
     if lvl == 1:
-        ctx_box("MISSIE BRIEFING — DE RECEPTIE",
+        ctx_box("DE RECEPTIE",
             "Jullie zijn binnengekomen in het witte huis. Je partner in crime heeft de receptioniste weg kunnen lokken. Nu aan jou de taak om achter de balie te kruipen en proberen om het systeem binnen te komen.Er is echter een kwetsbaarheid in de database.",
             "Noem het type aanval waarbij je database-commando's in een invoerveld injecteert om de login te omzeilen.")
         st.markdown("**Wat is de naam van de aanval waarbij je kwaadaardige SQL-code in een invoerveld typt?**")
